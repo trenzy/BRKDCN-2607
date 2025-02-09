@@ -1,6 +1,6 @@
 # Repository Terraform code/configuration for Cisco Live breakout session BRKDCN-2607
 
-This repository is built to support the Cisco Live breakout session BRKDCN-2607. This repository contains 3 separate projects
+This repository is built to support the Cisco Live breakout session BRKDCN-2607. This repository contains 2 separate projects
 
 - 1 `ACCESS_POLICIES` which configures ACI Fabric access policies for both end points (and EPGs) in our Tenant `PROD` as well as for an L3Out which will be used to connect to an upstream NX-OS device
 
