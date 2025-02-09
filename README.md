@@ -12,7 +12,7 @@ Terraform treats each of these as a separate project, which means you will need 
 
 ## Installing Terraform
 
-Installing Terraform is very easy and there is support for a multitude of platforms in which you can run it on. To install Terraform, please visit the [repository site](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli). 
+Installing Terraform is very easy and there is support for a multitude of platforms in which you can run it on. To install Terraform, please visit ther[Terraform installation site](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli) for more information with respect to the version of the binary you want to install.. 
 
 
 ## Clone this git repository
