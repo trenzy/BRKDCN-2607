@@ -4,9 +4,7 @@ This repository is built to support the Cisco Live breakout session BRKDCN-2607.
 
 - 1 `ACCESS_POLICIES` which configures ACI Fabric access policies for both end points (and EPGs) in our Tenant `PROD` as well as for an L3Out which will be used to connect to an upstream NX-OS device
 
-- 2 `PROD` which provisions a ACI Tenant and associated child policies (VRF, Bridge-Domain, BD Subnet, etc.)
-
-- 3 `L3OUT` which provisions an L3Out to an external NX-OS switch to show reachability from a host in the `PROD` Tenant.
+- 2 `PROD` which provisions a ACI Tenant and associated child policies (VRF, Bridge-Domain, BD Subnet, etc.). It also contains a file (l3out.tf) which provisions infrastructure for L3Outs from ACI.
 
 This was developed and tested with Terraform version 1.9.3 and latest version of the Terraform ACI provider (2.15.0 at the time this was developed)
 
